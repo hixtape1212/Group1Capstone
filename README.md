@@ -1,5 +1,6 @@
 # Group-1 Consulting 
 ## See Through the Ambiguity - Predicting Home Prices
+![Skyline](AustinSkyline.jpg)
 Group-1 Consulting has been approached by a real estate investement agency who is requesting an algorithm that predicts home prices. The real estate investment firm FlatTech RealEstate, buys homes in the Austin area. They have tasked our team with finding a datafile, clean it, and run various algorithms to create an home price predictor. Our algorith will predict home prices based on common features of home listings like number of beds, baths, lot size, square footage, etc. to help both buyers and sellers see through the ambiguity in home pricing.
 
 * [***Business Understanding:***](#business-understanding) The business case our team is attempting to solve.
