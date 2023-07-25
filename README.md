@@ -1,5 +1,12 @@
-# See Through the Ambiguity - Predicting Home Prices
-Group-1 Consulting has been approached by a real estate investement agency who is requesting an algorithm that predicts home prices. The real estate investment firm FlatTech RealEstate, buys homes in the Austin area. They have tasked our team with finding a datafile, clean it, and run various algorithms to create an home price predictor. Primarily we'll be looking to create something that predicts home prices based on common features of home listings like number of beds, baths, lot size, square footage, etc.
+# Group-1 Consulting 
+## See Through the Ambiguity - Predicting Home Prices
+Group-1 Consulting has been approached by a real estate investement agency who is requesting an algorithm that predicts home prices. The real estate investment firm FlatTech RealEstate, buys homes in the Austin area. They have tasked our team with finding a datafile, clean it, and run various algorithms to create an home price predictor. Our algorith will predictr home prices based on common features of home listings like number of beds, baths, lot size, square footage, etc. to help both buyers and sellers see through the ambiguity in home pricing.
+
+## Navigation
+* [***Business Understanding:***](##Business-Understanding) The business case our team is attempting to solve.
+* [***Data Understanding:***](##Data-Understanding) Basic overview of our approach and dataset.
+* [***Model Evaluation Strategy:***](##Model-Evaluation-Strategy) TBD
+* [***Conclusion:***](##Conclusion) TBD
 
 ## Business Understanding
 Home prices in the U.S. particullary in fast growing cities are important to know for both buyers and sellers, and sometimes the fair market value of a home can be influenced by outside factors, emotional views, and other points that could inflate or deflate the price of a home. Add to that the usually it can cost anywhere from $200 - $600 to appraise a home, machine learning is a great alternative to take some of the ambiguity and time-consuimption out of home pricing. An algorithm such as the one our group has developed can aleviate the risk of buying homes in voliatile markets, letting our clients know a relative value of the home they are buying, helping them to know whether or not they are getting a good deal. 
