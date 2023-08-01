@@ -5,7 +5,7 @@ Group-1 Consulting has been approached by a real estate investement agency who i
 
 * [***Business Understanding:***](#business-understanding) The business case our team is attempting to solve.
 * [***Data Understanding:***](#data-understanding) Basic overview of our approach and dataset.
-* [***Model Evaluation Strategy:***](#model-evaluation-strategy) TBD
+* [***Model Evaluation Strategy:***](#model-evaluation-strategy) Overview of model selection.
 * [***Conclusion:***](#conclusion) TBD
 * [***Navigation:***](#navigation) Link and description of files in the repo.
 
@@ -18,7 +18,15 @@ When looking for data, our team was looking for complete datasets on individual 
 Searching through Kaggle, our team was able to find the Austin, TX House Listing Dataset by Eric Pierce. He created the dataset for his capstone project in college in 2021. The data was scrapped from Zillow at the time, and he originally wanted to use both images and house features to predict home prices. It was very clean, having over 15,000 listings with 40+ features of each entry. Also a huge plus was that there were no NaN, which made the initial data cleaning part very simple.
 
 # Model Evaluation Strategy
+Our strategy to evaluating the problem and create a model was a three pronged approach. Our team wanted to see dhow using different models would improve accuracy of prediction as well as decrease our overall evaluation metric. The models we decided to use were Linear Regression, Decision Trees, and finally a Sequential Deep Nueral Network. 
+
+### Linear Regression
 (TBD)
+### Decision Trees
+(TBD)
+### Sequential Deep Nueral Network
+Our sequential deep nueral network was an attempt at the end to see if there could be any additional improvement in accuracy. The nature of the nueral network is more complex, requires more computational resources, and isn't very intuitive in it's predictions. However, in many situations this approach can yeild better results. 
+Multiple nueral networks we're trained and ran, some being very simple with roughly 3000 trainable parameters, and others being more complex with over 100000 trainable parameters. The range in complexity was in an attempt to lower evaluation metric which wasn't successful. In the end many of the models leveled out with an evaluation metric of XXXXXXX and didn't show much improvement afterwards. Many attempts to train a better model were stopped as it became more difficult to stop overfitting, even using techniques like early stopping and dropout layers.
 
 # Conclusion
 (TBD)
