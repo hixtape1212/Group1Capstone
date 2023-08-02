@@ -21,9 +21,12 @@ Searching through Kaggle, our team was able to find the Austin, TX House Listing
 Our strategy to evaluating the problem and create a model was a three pronged approach. Our team wanted to see dhow using different models would improve accuracy of prediction as well as decrease our overall evaluation metric. The models we decided to use were Linear Regression, Decision Trees, and finally a Sequential Deep Nueral Network. 
 
 ### Linear Regression
-(TBD)
-### Decision Trees
-(TBD)
+Linear regression techniques are relatively simple and quick lo implement, and is appropiate when there is a linear relationship between the dependent variable (house price) and the independent variables (size, number of rooms and bathrooms, etc). In this case is reasonable to assume that, in general increase of house size, number of rooms and bathrooms results in a proportional increace in house price. 
+
+We wanted start with a simple model to predict house price and evaluate results before apply other complex models.
+### XGBoost regression
+The results in linear regression model weren't the best, so we tried with different techniques as desicion tree, random forest and XGBoost, this last had the best performance and we worked in it.
+XGBoost algorithm is one of the most popular techniques, is a versatil algorithm that can be used for both classification and regression problems, it is fast to execute and highly efective and in this case gave us the best model for predictions.
 ### Sequential Deep Nueral Network
 Our sequential deep nueral network was an attempt at the end to see if there could be any additional improvement in accuracy. The nature of the nueral network is more complex, requires more computational resources, and isn't very intuitive in it's predictions. However, in many situations this approach can yeild better results. 
 Multiple nueral networks we're trained and ran, some being very simple with roughly 3000 trainable parameters, and others being more complex with over 100000 trainable parameters. The range in complexity was in an attempt to lower evaluation metric which wasn't successful. In the end many of the models leveled out with an evaluation metric of XXXXXXX and didn't show much improvement afterwards. Many attempts to train a better model were stopped as it became more difficult to stop overfitting, even using techniques like early stopping and dropout layers.
