@@ -6,7 +6,7 @@ Group-1 Consulting has been approached by a real estate investement agency who i
 * [***Business Understanding:***](#business-understanding) The business case our team is attempting to solve.
 * [***Data Understanding:***](#data-understanding) Basic overview of our approach and dataset.
 * [***Model Evaluation Strategy:***](#model-evaluation-strategy) Overview of model selection.
-* [***Conclusion:***](#conclusion) TBD
+* [***Conclusion:***](#conclusion) Description of results and next steps.
 * [***Navigation:***](#navigation) Link and description of files in the repo.
 
 # Business Understanding
