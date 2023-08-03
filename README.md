@@ -32,7 +32,7 @@ Our sequential deep nueral network was an attempt at the end to see if there cou
 Multiple nueral networks we're trained and ran, some being very simple with roughly 3000 trainable parameters, and others being more complex with over 100000 trainable parameters. The range in complexity was in an attempt to lower evaluation metric which wasn't successful. In the end many of the models leveled out with an evaluation metric of XXXXXXX and didn't show much improvement afterwards. Many attempts to train a better model were stopped as it became more difficult to stop overfitting, even using techniques like early stopping and dropout layers.
 
 # Conclusion
-(TBD)
+In order to accurately predict home prices in the Austin area, the algorithm models that would be the most effective are the XGBoost Regressor model and the Neural Network model we created. 
 
 # Navigation
 (TBD)
