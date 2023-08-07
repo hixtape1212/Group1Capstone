@@ -5,7 +5,7 @@ Group-1.
 In this branch you will find the notebook [LinearRegressionAnalysis](https://github.com/hixtape1212/Group1Capstone/blob/Gerardo/LinearRegressionAnalysis.ipynb) where we trained four models with different techniques:
 
 * Linear regression
-* Desicion tree
+* Decision tree
 * Random forest
 * XGBoost
 
